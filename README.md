@@ -1,24 +1,11 @@
-# VES Control — PWA
+# ALS Central — PWA
 
-Web App simples para facilitar o acesso individual ao portal VES e lembrar a equipe da rotina semanal.
+Central de atalhos para treinamentos e formulários operacionais ALS e Vale.
 
-## Publicar gratuitamente pelo GitHub Pages
-1. Crie um repositório público chamado `ves-control` na sua conta GitHub.
-2. Envie todos os arquivos e pastas deste pacote para a raiz do repositório.
-3. No GitHub, abra **Settings → Pages**.
-4. Em **Build and deployment**, selecione **Deploy from a branch**.
-5. Escolha a branch `main` e a pasta `/ (root)`, depois salve.
-6. Aguarde a publicação. O endereço ficará parecido com `https://SEU-USUARIO.github.io/ves-control/`.
-7. Fixe esse endereço no WhatsApp da empresa.
+## Atualizar o repositório existente
+Substitua `index.html`, `manifest.webmanifest` e `sw.js` pelos arquivos deste pacote. Substitua também os dois arquivos dentro de `icons/`. Mantenha a branch `principal` e a pasta raiz (`/ (root)`) no GitHub Pages. Faça Commit changes.
 
-## Instalar
-Abra o endereço publicado no Chrome/Android e use **Instalar aplicativo** ou **Adicionar à tela inicial**. No iPhone, abra no Safari, toque em Compartilhar e depois em **Adicionar à Tela de Início**.
+O endereço continuará: https://noe13na.github.io/ves-control/
 
-## Lembrete semanal
-O botão “Lembrete na agenda” baixa um evento recorrente para as segundas-feiras. O usuário precisa adicionar esse arquivo à agenda/calendário. Um PWA estático, sozinho, não consegue garantir notificações automáticas quando está fechado; isso exigiria um serviço de notificações push e configuração adicional.
-
-## Importante
-- O app não coleta, solicita ou armazena usuário/senha.
-- O botão abre o portal oficial do VES em outra aba.
-- Abrir o portal não comprova que o login foi concluído.
-- Confirme com a Vale a regra vigente de inatividade e se o uso deste atalho é permitido.
+## Segurança
+Este repositório é público. Não coloque senhas, códigos de cadeados, tokens ou outras credenciais nele. Os atalhos apenas abrem os serviços externos; cada usuário deve autenticar-se diretamente no sistema oficial.

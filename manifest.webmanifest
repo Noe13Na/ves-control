@@ -1,13 +1,13 @@
 {
   "id": "./",
-  "name": "VES Control",
-  "short_name": "VES Control",
-  "description": "Central de acesso rápido ao portal VES da Vale.",
+  "name": "ALS Central – Portal de Acessos e Operações",
+  "short_name": "ALS Central",
+  "description": "Central de acessos e formulários operacionais ALS e Vale.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "background_color": "#f2f7f4",
-  "theme_color": "#087a4b",
+  "theme_color": "#075b43",
   "icons": [
     {
       "src": "icons/icon-192.png",
